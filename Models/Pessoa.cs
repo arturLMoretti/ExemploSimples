@@ -10,6 +10,31 @@ namespace ExemploSimples.Models
     public string Nome { get; set; }
     public int Idade { get; set; }
 
+    char sexo { get; set;}
+
+    object obj { get; set; }
+
+    bool verdade { get; set; }
+
+    // Mais preciso para representar valores monetários
+    decimal valor { get; set; }
+
+    double valor2 { get; set; }
+
+    float valor3 { get; set; }
+
+    int valor4 { get; set; }
+
+    long valor5 { get; set; }
+
+    uint valor6 { get; set; }
+
+    short valor7 { get; set; }
+
+    ulong valor8 { get; set; }
+
+    DateTime data { get; set; }
+
     public void Apresentar()
     {
       Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
